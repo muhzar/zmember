@@ -7,9 +7,9 @@ use Hash;
 use Redirect;
 use Validator;
 use App\Http\Controllers\Controller;
-use Zarkasih\Zmember\Zauth;
-use Zarkasih\Zmember\models\Member;
-use Zarkasih\Zmember\ZmemberWrapper;
+use Muhzar\Zmember\Zauth;
+use Muhzar\Zmember\models\Member;
+use Muhzar\Zmember\ZmemberWrapper;
 
 class ZmemberController extends ZauthController
 {

@@ -9,10 +9,10 @@ use Redirect;
 use Validator;
 use Socialite;
 use Log;
-use Zarkasih\Zmember\models\MemberLogin;
-use Zarkasih\Zmember\models\Member;
-use Zarkasih\Zmember\models\LoginChannel;
-use Zarkasih\Zmember\ZmemberWrapper;
+use Muhzar\Zmember\models\MemberLogin;
+use Muhzar\Zmember\models\Member;
+use Muhzar\Zmember\models\LoginChannel;
+use Muhzar\Zmember\ZmemberWrapper;
 
 class ZauthController extends Controller
 {

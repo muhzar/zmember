@@ -38,7 +38,7 @@ class ZmemberServiceProvider extends ServiceProvider
             __DIR__.'/configs/services.php', 'services'
         );
 
-        $this->app->make('Zarkasih\Zmember\ZmemberController');
+        $this->app->make('Muhzar\Zmember\ZmemberController');
     }
 
 
