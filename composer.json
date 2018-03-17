@@ -1,0 +1,13 @@
+{
+    "name": "muhzar/zmember",
+    "description": "Custom Auth for login register and etc",
+    "type": "library",
+    "authors": [
+        {
+            "name": "muhamad zarkasih",
+            "email": "m.zarkasih@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
