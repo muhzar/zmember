@@ -1,6 +1,6 @@
 <?php
 
-namespace Zarkasih\Zmember;
+namespace Muhzar\Zmember;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -22,11 +22,11 @@ class ZmemberServiceProvider extends ServiceProvider
         //     __DIR__.'/configs/zmember.php' => config_path('zmember.php'),
         // ]);
 
-        // if ($this->app->runningInConsole()) {
-        //     $this->publishes([
-        //         __DIR__.'/configs/zmember.php' => $this->app->config_path('zmember.php'),
-        //     ], 'zmember');
-        // }
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__.'/configs/zmember.php' => $this->app->config_path('zmember.php'),
+            ], 'zmember');
+        }
 
 
         $this->loadViewsFrom(__DIR__.'/views/', 'zmember');
