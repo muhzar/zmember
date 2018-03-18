@@ -8,6 +8,9 @@
             "email": "m.zarkasih@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"Muhzar\\Zmember\\": "src/"}
+    }
     "minimum-stability": "dev",
     "require": {}
 }
